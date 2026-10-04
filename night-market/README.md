@@ -1,10 +1,11 @@
 # Night Market Tycoon 🏮
 
-Prototype jouable d'un tycoon « idle arcade » mobile : tu gères un marché de nuit qui grandit, de la ruelle au festival.
+Prototype jouable d'un tycoon « idle arcade » mobile en 3D : tu gères un marché de nuit qui grandit, de la ruelle au festival.
 
 ## Jouer
 
-Ouvre `index.html` dans un navigateur (mobile ou ordinateur). Le jeu tient dans un seul fichier, sans dépendance ni build.
+Ouvre `index.html` dans un navigateur (mobile ou ordinateur). Le jeu tient dans un seul fichier, sans build.
+Le rendu 3D utilise [Three.js](https://threejs.org) (r128), chargé depuis cdnjs : il faut donc une connexion internet.
 
 - **Mobile** : glisse le doigt n'importe où pour te déplacer (joystick virtuel).
 - **Ordinateur** : flèches, ZQSD ou WASD.
@@ -28,4 +29,5 @@ La partie est sauvegardée automatiquement dans le navigateur (localStorage).
 - Festivals hebdomadaires avec un stand exclusif
 - Visite du marché des amis et pourboires
 - Pubs récompensées (×2 hors ligne, client VIP), pass saisonnier, cosmétiques
+- Modèles 3D plus détaillés (glTF) et animations des personnages
 - Portage vers un moteur mobile (Phaser + Capacitor, Unity ou Godot) pour publier sur les stores
